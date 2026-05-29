@@ -83,7 +83,7 @@ pip install -r backend/requirements.txt
 python backend/proxy.py
 ```
 
-后端默认监听 **http://localhost:5001**。健康检查：
+后端默认监听 http://localhost:5001 健康检查：
 
 ```bash
 curl http://localhost:5001/api/test
