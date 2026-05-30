@@ -18,14 +18,6 @@
 | **AI 图片** | 调用火山 Seedream 生成电商主图，支持参考图与多种尺寸 |
 | **设置页** | 开关类交互与偏好配置 |
 
-**求职展示向亮点：**
-
-- 前后端分离 + 本地 API 代理，API Key 不入前端代码
-- 文案接口失败时的 **Graceful Degradation**（Mock 降级），保证演示可用
-- 输入校验（商品名、prompt、image 字段类型、size 白名单）
-- 使用 Playwright 完成 21 项自动化回归（见 `docs/ecommerce_test_report.md`）
-- 内置测试商品数据，开箱可演示核心流程
-
 ## 技术栈
 
 | 层级 | 技术 |
